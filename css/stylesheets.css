@@ -1,0 +1,256 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Avenir, sans-serif;
+    text-align: justify;
+}
+body {
+    background: #ededed;
+}
+.info {
+    margin-top: 50px;
+}
+.heading {
+    width: 180px;
+    margin: 0 auto;
+    padding: 2px;
+    border-bottom: 1px solid gray;
+    border-top: 1px solid gray;
+    color: gray;
+    margin-top: 11px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.centered-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.profile {
+    overflow: hidden;
+    position: relative;
+}
+.profile-img {
+    position: absolute;
+    z-index: 9;
+    width: 140px;
+    height: 140px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    border: 3px solid gray;
+}
+.blue-box {
+    width: 257px;
+    height: 407px;
+    background: #fe7e2f;
+    margin-left: -100px;
+    transform: rotateZ(48deg);
+    margin-top: -178px;
+}
+.right-section {
+    padding: 40px 30px;
+    background: white;
+    width: 68%;
+    float: left;
+    height: 1000px;
+    width: 80%;
+   
+    
+}
+.left-section {
+    background: rgb(238, 208, 153);
+    width: 250px;
+    height: 1000px;
+    float: left;
+    width: 20%;
+
+}
+.data-left{
+    padding-left: 15px;
+}
+.p2 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2px;
+    border-bottom: 1px solid lightgray;
+    border-top: 1px solid lightgray;
+    color: black;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bolder;
+    margin-left: 50px;
+    line-height: 18px;
+}
+.p2 a{
+    color: black;
+}
+h1 {
+    text-align: center;
+    margin: 0 auto;
+    padding: 2px;
+    color: #fe7e2f;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 50px;
+    line-height: 18px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+section h2 {
+    margin: 20px 0;
+    width: 90%;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.5em;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+}
+section h2 {
+    margin: 20px 0;
+    width: 90%;
+}
+section>div {
+    width: 90%;
+}
+
+.exp {
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.exp-info {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.exp-logo {
+    flex: 0 0 25%;
+    max-width: 100px;
+}
+
+.exp-info {
+    flex: 0 0 70%;
+    margin-left: 5%;
+}
+
+.exp img {
+    width: 100%;
+}
+
+.exp h3 {
+    font-size: 1.2em;
+}
+
+.exp h4 {
+    font-size: 1em;
+    font-weight: normal;
+}
+
+header {
+    background-color: #fe7e2f;
+}
+
+nav {
+    width: 60%;
+    margin: auto;
+
+}
+
+
+
+
+
+h2 {
+
+    margin: 0 auto;
+    padding: 2px;
+    color: #fe7e2f;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 50px;
+    line-height: 18px;
+}
+nav a {
+    width: 100px;
+    color: #363637;
+    font-size: 12px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 10px;
+    border-style: solid;
+    display: inline-block;
+}
+footer {
+
+    background-color: #7f858d;
+    margin: auto;
+
+}
+.gal {
+
+    border: 10px solid white;
+    max-width: 400px;
+    text-align: center;
+    display: block;
+    margin: auto;
+
+
+}
+
+.photo-desc{
+    display: flex;
+}
+
+.club-logo{
+    max-width: 30%;
+    margin: 0px;
+}
+
+.image-container {
+    text-align: center;
+}
+.h-img {
+    margin: 0 10px;
+}
+.p3{text-align: center;}
+
+
+
+
+
+
+
+
